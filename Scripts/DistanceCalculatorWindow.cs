@@ -57,7 +57,7 @@ namespace JaxterMG.SimpleRuler.DistanceCalculator
                 labelStyle.normal.textColor = Color.white;
                 labelStyle.fontSize = 16;
                 labelStyle.fontStyle = FontStyle.Bold;
-                Handles.Label(labelPos, $"Distance: {distance:F2}", labelStyle);
+                Handles.Label(labelPos, $"Distance: {distance*1000:F0}", labelStyle);
             }
 
         }
